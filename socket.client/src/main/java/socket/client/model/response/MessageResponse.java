@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CustomResponse {
-    private int responseCode;
-    private String responseStatus;
+public class MessageResponse {
+    private int statusCode;
+    private String statusMessage;
 
 }

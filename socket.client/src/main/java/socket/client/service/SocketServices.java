@@ -34,5 +34,11 @@ public class SocketServices {
 
             }
         }
+
+    public static void main(String[] args) {
+        SocketServices socketServices=new SocketServices();
+        String server = socketServices.sendMessageToServer("127.0.0.1",9000,"Hello server");
+        System.out.println(server);
+    }
     }
 
